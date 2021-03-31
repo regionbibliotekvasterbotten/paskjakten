@@ -79,15 +79,15 @@ Du behöver sedan ändra ett saker på varje sida.
             <h2 class="section-heading text-uppercase">Rätt svar, bra jobbat!</h2>
 
             <!--Bakgrunds information-->
-            <h3>Titta på påskharens film här nedan.</h3>
-            <iframe width="905" height="509" src="https://www.youtube.com/embed/1XpAO8vbwDw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <h3>Titta på påskharens nästa film här nedan.</h3>
+            <iframe width="790" height="494" src="https://www.youtube.com/embed/3JIbJ4tX6WM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             <!--Eventuellt återkoppling gällande det tidigare uppdraget-->
             <p> 
             
             </p>
 
             <!--Uppgiftens nummer-->
-            <h3>Följ efter i påsharens fotspår så hittar du nästa ledtråd till påskäggen.</h3>
+            <h3>Vem är det påskharen ritar?</h3>
             <!--Vilket är uppdraget?-->
             <p>
             Ta reda på svaret och skriv in det i rutan här nedanför.
@@ -131,7 +131,7 @@ Du behöver sedan ändra ett saker på varje sida.
       så många uppdrag vi vill.
       -->
             <form id="contactForm" name="sentMessage" novalidate="novalidate" 
-            action="./3.html" 
+            action="./klar.html" 
             onsubmit="return validateForm()" autocomplete="off">
               <div class="row">
                 <div class="col-md-12">
@@ -204,10 +204,10 @@ Du behöver sedan ändra ett saker på varje sida.
 
       */
 
-      if (answer == "buneary") {
+      if (answer == "bunnelpy") {
           return true;
       }else{
-        document.getElementById("answer").value ="buneary";
+        document.getElementById("answer").value ="bunnelpy";
         document.getElementById("answer").setAttribute("placeholder","Det var tyvärr fel svar, försök igen!");
         return false;
       }

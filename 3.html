@@ -29,7 +29,7 @@ Du behöver sedan ändra ett saker på varje sida.
   # webbsidans flik/tabb har då du du surfar till sidan.
   # 
   -->
-    <title>Jakten på den försvunna n00ben</title>
+    <title>Sonic sitter fast</title>
 
   <!--Filer som berättar hur sidan skall se ut laddas in. Här behöver vi inte ändra något-->
   
@@ -79,15 +79,15 @@ Du behöver sedan ändra ett saker på varje sida.
             <h2 class="section-heading text-uppercase">Rätt svar, bra jobbat!</h2>
          
             <!--Bakgrunds information-->
-            <h3>Rätt svar, bra jobbat! Leta efter en bänk här i parken, under en av dem sitter den sista ledtråden till var n00ben finns. </h3>
+            <h3>Följ efter Sonic på filmen för att komma till den sista ledtråden.</h3>
             
             <!--Eventuellt återkoppling gällande det tidigare uppdraget-->
             <p> 
-            
+              <iframe width="871" height="490" src="https://www.youtube.com/embed/q2hfOUqi5AA" title="sonicsitterfast" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </p>
 
             <!--Uppgiftens nummer-->
-            <h3></h3>
+            <h3>Skriv sedan in svaret på frågan i rutan nedan</h3>
             <!--Vilket är uppdraget?-->
             <p>
             
@@ -204,10 +204,10 @@ Du behöver sedan ändra ett saker på varje sida.
 
       */
 
-      if (answer == "pikachu") {
+      if (answer == "knuckles") {
           return true;
       }else{
-        document.getElementById("answer").value ="pikachu";
+        document.getElementById("answer").value ="knuckles";
         document.getElementById("answer").setAttribute("placeholder","Det var tyvärr fel svar, försök igen!");
         return false;
       }

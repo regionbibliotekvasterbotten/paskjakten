@@ -82,7 +82,7 @@ ctrl+f för att snabbt hitta de platser du behöver ändra på.-->
   # 
   -->
 
-    <title>Jakten på de försvunna Pokémon</title>
+    <title>Sonic sitter fast</title>
 
   <!--Filer som berättar hur sidan skall se ut laddas in. Här behöver vi inte ändra något-->
   
@@ -103,7 +103,7 @@ ctrl+f för att snabbt hitta de platser du behöver ändra på.-->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
       <div class="container">
         <a class="navbar-brand js-scroll-trigger" href="">
-        Mysteriet med den försvunna n00ben
+        Sonic sitter fast
         </a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           Menu
@@ -129,8 +129,7 @@ ctrl+f för att snabbt hitta de platser du behöver ändra på.-->
     <header class="masthead">
       <div class="container">
         <div class="intro-text">
-        <div class="intro-heading text-uppercase">Mysteriet med den försvunna</div>
-          <div class="intro-heading text-uppercase">n00ben</div>
+        <div class="intro-heading text-uppercase">Sonic sitter fast</div>
           
           <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">
           Starta jakten!
@@ -144,10 +143,10 @@ ctrl+f för att snabbt hitta de platser du behöver ändra på.-->
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
-            <h2 class="section-heading text-uppercase">En n00b är försvunnen och er uppgift är att hitta honom!</h2>
+            <h2 class="section-heading text-uppercase">Sonic har sprungit för fort rakt in i ett träd och fastnat. Ni måste hjälpa honom att komma loss!</h2>
         
 
-            <h3>Lyssna på n00bens sista meddelande innan han försvann och lyssna efter ledtrådar.</h3>
+            <h3>Sonic har lämnat ledtrådar som leder er till var han har fastnat. Lös gåtorna och hitta honom!</h3>
             
             <!--Ibland kanske du vill lägga till en bild i beskrivningen.
             I så fall läger du in bilden i katalogen img.
@@ -157,20 +156,10 @@ ctrl+f för att snabbt hitta de platser du behöver ändra på.-->
             EX:
             <img src="./img/bildensnamn.filformat">
             T.ex: <img src="./img/coolbild.jpeg">-->
-
-            <script>
-              function play() {
-                var audio = document.getElementById("audio");
-                audio.play();
-              }
-            </script>
-        
-            <input type="button" value="Lyssna genom att trycka här" onclick="play()">
-            <audio id="audio" src="./img/1.mp3"></audio>
-
+            <img src="./img/1.png">
             <br />
             <br />
-            <h3>När ni hittat den första ledtråden och klurat ut svaret...</h3>
+            <h3>Vilken siffra är det Sonic skrivit med sitt snabba blåa streck?</h3>
             <!--Här nedan beskriver du vad uppdraget skall vara-->
             <p>
             Skriv in svaret i rutan här nedanför
@@ -282,10 +271,10 @@ ctrl+f för att snabbt hitta de platser du behöver ändra på.-->
       if (answer == "svar1" || answer == "svar2" answer == "svar3" )
       */
 
-      if (answer == "ankdamm") { /*Kom ihåg att svaret skall skrivas med gemener*/
+      if (answer == "4") { /*Kom ihåg att svaret skall skrivas med gemener*/
           return true;
       }else{
-        document.getElementById("answer").value ="ankdamm";
+        document.getElementById("answer").value ="4";
         document.getElementById("answer").setAttribute("placeholder","Det var tyvärr fel svar, försök igen!");
         return false;
       }
